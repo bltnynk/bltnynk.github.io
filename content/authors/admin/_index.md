@@ -47,11 +47,42 @@ profiles:
   # - icon: academicons/orcid
   #   url: https://orcid.org/0000-0002-1825-0097
 
-interests:
-  - Large Language Models
-  - LLM Post-training
-  - LLM Reinforcement Learning
-  - Vision Language Models
+news:
+  - exp: 🏅 Started my M.S at KAIST AI
+    date: February 2025 |
+  - exp: 🎉 One paper (2nd-author) has been accepted to NeurIPS 2024. This is my first paper ever!
+    date: September 2024 |
+  - exp: 🏅 Graduated Magna Cum Laude from KAIST School of Computing.
+    date: February 2024 |
+
+paper:
+  - name: "(FL)<sup>2</sup>: Overcoming Few Labels in Federated Semi-Supervised Learning"
+    venue: "NeurIPS 2024"
+    author: <font color="#4765b6"><b>Seungjoo Lee</b></font>, Thanh-Long V. Le, Jaemin Shin, Sung-Ju Lee
+    img: uploads/FLFL.png
+    pdf: https://arxiv.org/abs/2410.23227
+    website: https://nmsl.kaist.ac.kr/projects/fl2/
+    code: https://github.com/seungjoo-ai/FLFL-NeurIPS24
+  - name: "FedTherapist: Mental Health Monitoring with User-Generated Linguistic Expressions on Smartphones via Federated Learning"
+    venue: "EMNLP 2023"
+    author: Jaemin Shin, Hyungjun Yoon, <font color="#4765b6"><b>Seungjoo Lee</b></font>, Sungjoon Park, Yunxin Liu, Jinho D. Choi, Sung-Ju Lee
+    pdf: https://arxiv.org/abs/2310.16538
+    website: https://nmsl.kaist.ac.kr/projects/fedtherapist/
+    img: uploads/fedtherapist.png
+  - name: "MyDJ: Sensing Food Intakes with an Attachable on Your Eyeglass Frame"
+    venue: "CHI 2022"
+    author: Jaemin Shin, <font color="#4765b6"><b>Seungjoo Lee</b></font>, Taesik Gong, Hyungjun Yoon, Hyunchul Roh, Andrea Bianchi, and Sung-Ju Lee
+    pdf: https://dl.acm.org/doi/abs/10.1145/3491102.3502041
+    website: https://nmsl.kaist.ac.kr/projects/mydj/
+    video: https://www.youtube.com/watch?v=77XNl39QoEE
+    award: Best Paper Honorable Mention Award (Top 5%)
+    img: uploads/mydj.png
+    slide: uploads/mydj_slides.pdf
+
+preprint:
+  - name: Anonymized Title
+    venue: "ICML 2025"
+    author: XiaoMeng Chen*, <font color="#4765b6"><b>Seungjoo Lee*</b></font>, Hyungjun Yoon*, Yu Wu*, Taiting Lu, Freddy Yifei Liu, Sung-Ju Lee†, Dongyao Chen†, Cecilia Mascolo†, Lili Qiu <br> <i>* Equal contribution. † Equal senior role</i>
 
 education:
   - area: MS Artificial Intelligence
@@ -157,32 +188,16 @@ awards:
     summary: |
       Silver medal.
 
-news:
-  - exp: 🎓 Starting my PhD at Cargenie Mellon University
-    date: Aug 2025 |
-  - exp: ✈️ Participating NeurIPS 2024 @ Vancouver 🇨🇦
-    date: Dec 2024 |
-  - exp: 🎤 Giving talk about  <a href="https://nmsl.kaist.ac.kr/projects/fl2/">(FL)<sup>2</sup></a> @ Microsoft Research
-    date: Nov 2024 |
-  - exp: 🎉 Paper accepted at NeurIPS 2024
-    date: Sep 2024 |
-  - exp: 👨‍💻 Research intern @ Microsoft Research (Mentor - <a href="https://www.cs.utexas.edu/~lili/">Lili Qiu</a>)
-    date: Sep 2024 |
-  - exp: ✈️ Participating EMNLP 2023 @ Singapore 🇸🇬
-    date: Dec 2023 |
-  - exp: 🎉 Paper accepted at EMNLP 2023
-    date: Oct 2023 |
-  - exp: 🎓 Graduated from KAIST with a bachelor's degree in Computer Science with honors
-    date: Aug 2022 |
-  - exp: 🏅 Honorable Mention Award at ACM CHI 2022
-    date: Mar 2022 |
-  - exp: 🎉 Paper accepted at ACM CHI 2022
-    date: Nov 2022 |
+miscellaneous:
+  - name: "Me giving demo"
+    desc: "After presenting a live demo to Mustafa Suleyman, Microsoft AI CEO!"
+    img: uploads/demo.jpeg
 ---
 
 Hello there. Glad to have you here!
 
-I am a first-year M.S. student at KAIST AI, advised by Prof. Eunho Yang and Dr. Viet Lai from Adobe Research.
-My research interests broadly lie in large language models (LLMs), with a current focus on enhancing LLM reasoning abilities through reinforcement learning and other post-training techniques.
+I am a first-year M.S. student at KAIST AI, co-advised by Prof. Eunho Yang and Dr. Viet Lai (Adobe Research).
+
+My research interests broadly span large language models (LLMs), with a particular focus on improving their reasoning abilities through reinforcement learning and other post-training methods. Currently, I am diving into 
 
 Previously, I received my B.S. degree in Computer Science from KAIST, where I was advised by Prof. Sung-Ju Lee.

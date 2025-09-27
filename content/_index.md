@@ -9,31 +9,58 @@ design:
   spacing: '6rem'
 
 sections:
+  - block: resume-biography-3
+    content:
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      username: admin
+      text: ''
+      # Show a call-to-action button under your biography? (optional)
+      button:
+        text: Download CV
+        url: uploads/resume.pdf
+      headings:
+        about: ''
+        education: ''
+        interests: ''
+    design:
+      # Apply a gradient background
+      css_class: hbx-bg-gradient
+      # Avatar customization
+      avatar:
+        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        shape: circle # Options: circle (default), square, rounded
+  # - block: 'github.bltnynk.intro'
+  #   id: about
+  #   content:
+  #     title: Thanh-Long V. Le
+  #     # Choose a user profile to display (a folder name within `content/authors/`)
+  #     username: admin
   # - block: 'github.bltnynk.news'
   #   id: news
   #   content:
   #     title: News
   #     username: admin
-# - block: resume-biography-3
+  # - block: 'github.bltnynk.publication'
+  #   id: publication
   #   content:
+  #     title: Publications
   #     # Choose a user profile to display (a folder name within `content/authors/`)
   #     username: admin
-  #     text: ''
-  #     # Show a call-to-action button under your biography? (optional)
-  #     button:
-  #       text: Download CV
-  #       url: uploads/resume.pdf
-  #     headings:
-  #       about: ''
-  #       education: ''
-  #       interests: ''
-  #   design:
-  #     # Apply a gradient background
-  #     css_class: hbx-bg-gradient
-  #     # Avatar customization
-  #     avatar:
-  #       size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-  #       shape: circle # Options: circle (default), square, rounded
+  # - block: 'github.bltnynk.honor'
+  #   id: honor
+  #   content:
+  #     title: Honors
+  #     username: admin
+  # - block: 'github.bltnynk.miscellaneous'
+  #   id: miscellaneous
+  #   content:
+  #     title: Miscellaneous
+  #     username: admin
+  # - block: 'github.bltnynk.news'
+  #   id: news
+  #   content:
+  #     title: News
+  #     username: admin
   # - block: markdown
   #   content:
   #     title: '📚 My Research'
