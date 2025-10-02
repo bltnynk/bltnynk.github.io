@@ -50,7 +50,7 @@ td, th {
          </tr>
          <tr>
             <td><b>Sep. 2024</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
-            <td>🎉 One paper has been accepted to NeurIPS 2024. This is my publication at a top-tier conference.</td>
+            <td>🎉 One paper has been accepted to NeurIPS 2024. This is my first publication at a top-tier conference.</td>
          </tr>
          <tr>
             <td><b>Feb. 2024</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
