@@ -12,7 +12,7 @@ subtitle = ""
   columns = "1"
 
 [design.spacing]
-  padding = ["40px", "0", "15px", "0"]
+  padding = ["40px", "0", "25px", "0"]
 
 +++
 
@@ -49,7 +49,7 @@ img {
 
 #intro {
   font-size: 14pt;
-  margin-left: 270px;
+  margin-left: 328px;
   margin-right: 5%;
   text-align: justify; 
 }
@@ -81,30 +81,11 @@ a:hover {
 }
 
 
-/*1410 - 1100*/
-@media only screen and (max-width: 1410px) {
-  .profile-photo {
-    margin-bottom: 150px;
-  }
-}
-
-@media only screen and (max-width: 1100px) {
-  .profile-photo {
-    margin-bottom: 10px;
-  }
-}
-
-@media only screen and (max-width: 1044px) {
-  #intro {
-    margin-left: 0px;
-  }
-}
-
 .profile-photo {
   float: left;
   width: 288px;
   margin-right: 40px;
-  margin-bottom: 10px;
+  /* margin-bottom: 5px; */
   text-align: center; /* centers icons under the image */
 }
 
@@ -126,6 +107,25 @@ a:hover {
 
 .profile-icons a:hover {
   color: #4f8b04;
+}
+
+/*1410 - 1100*/
+/* @media only screen and (max-width: 1410px) {
+  .profile-photo {
+    margin-bottom: 200px;
+  }
+} */
+
+/* @media only screen and (max-width: 1100px) {
+  .profile-photo {
+    margin-bottom: 10px;
+  }
+} */
+
+@media only screen and (max-width: 1200px) {
+  #intro {
+    margin-left: 0px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
