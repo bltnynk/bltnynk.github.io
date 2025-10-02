@@ -83,13 +83,13 @@ a:hover {
 
 /*1410 - 1100*/
 @media only screen and (max-width: 1410px) {
-  img {
+  .profile-photo {
     margin-bottom: 150px;
   }
 }
 
 @media only screen and (max-width: 1100px) {
-  img {
+  .profile-photo {
     margin-bottom: 10px;
   }
 }
@@ -101,7 +101,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
- img {
+ .profile-photo {
    float: none;
    width: 100%;
    display: block;       /* sit on its own line */
