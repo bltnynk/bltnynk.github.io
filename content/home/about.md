@@ -169,14 +169,13 @@ a:hover {
 
 <div id='intro'>
 Hello there! Glad to have you here.
-
-
+<div class='br'><br></div>
 
 I am a first-year M.S. student at <a class='ref' href="https://gsai.kaist.ac.kr/">KAIST AI</a>, co-advised by <a class='ref' href="https://mli.kaist.ac.kr/people/">Prof. Eunho Yang</a> and <a class='ref' href="https://laiviet.github.io/">Dr. Viet Lai</a> (Adobe Research). My research interests broadly span large language models (LLMs), with a particular focus on improving their reasoning abilities through reinforcement learning and other post-training methods. Recently, I am also beginning to explore generative modeling, with interests in diffusion models for video generation and diffusion-based LLMs.
 
 Previously, I received my B.S. degree in Computer Science from <a class='ref' href="https://www.kaist.ac.kr/en/">KAIST</a>, where I was advised by <a class='ref' href="https://sites.google.com/site/wewantsj/">Prof. Sung-Ju Lee</a>.
-
 <div class='br'><br></div>
+
 <div class="contact-clear"></div>
 </div>
 <!-- [{{< icon name="file" pack="fas" >}} CV](uploads/CV_YewonKim.pdf) -->
