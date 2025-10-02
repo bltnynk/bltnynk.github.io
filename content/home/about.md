@@ -11,6 +11,8 @@ subtitle = ""
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "1"
 
+[design.spacing]
+  padding = ["0", "0", "0", "0"]
 +++
 
 <style>
@@ -52,7 +54,7 @@ img {
 }
 
 .ref {
-  color: #546447; /*  #AB6F55*/
+  /* color: #546447; /*  #AB6F55*/
 }
 
 .section {

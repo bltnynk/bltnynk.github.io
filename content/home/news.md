@@ -12,7 +12,7 @@ subtitle = ""
   columns = "1"
 
 [design.spacing]
-  padding = ["10px", "0", "10px", "0"]
+  padding = ["0", "0", "0", "0"]
 +++
 <style>
 td, th {

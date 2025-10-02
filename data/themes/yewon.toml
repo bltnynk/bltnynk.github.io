@@ -6,9 +6,9 @@ name = "Yewon"
   primary = "#333334" #294936
 
   # Menu
-  menu_primary = "#98cbffff"
+  menu_primary = "#cee4faff"
   menu_text = "#333334"
-  menu_text_active = "#B1040E"
+  menu_text_active = "#000000ff"
   menu_title = "#333334"
 
   # Backgrounds
