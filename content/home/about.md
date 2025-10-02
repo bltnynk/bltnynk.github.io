@@ -102,8 +102,9 @@ a:hover {
 
 @media only screen and (max-width: 768px) {
  img {
-   float: middle;
+   float: none;
    width: 100%;
+   display: block;       /* sit on its own line */
    /* padding-right: 10%; */
    /* padding-left: 10%;  */
    padding-bottom: 10px;
