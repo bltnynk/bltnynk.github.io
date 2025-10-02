@@ -15,6 +15,8 @@ subtitle = ""
 
 <style>
 
+/* 🔹 Global fix: reduce spacing between all sections */
+
 ::-moz-selection {
    background: #FDEEC9;
    /* color: #fff; */
