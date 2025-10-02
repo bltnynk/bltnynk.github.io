@@ -54,10 +54,10 @@ td, th {
          </tr>
          <tr>
             <td><b>Feb. 2024</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
-            <td>:mortar_board: I graduated magna cum laude from KAIST (GPA: 3.98/4.30, ranked 10 in School of Computing).</td>
+            <td>:mortar_board: I graduated from KAIST with a bachelor's degree in Computer Science.</td>
          </tr>
          <tr>
-            <td><b>June. 2023</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
+            <td><b>Jun. 2023</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
             <td>:four_leaf_clover: I joined KAIST NMSL as a research intern.</td>
          </tr>
          <!-- <tr>

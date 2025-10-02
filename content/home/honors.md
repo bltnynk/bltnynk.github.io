@@ -29,6 +29,11 @@ subtitle = ""
 <hr class="divider"></hr>
 
 <p style="line-height:1.3">
+  <span class="award"><b>Magna Cum Laude</b></span><br>
+  <span class="award-description">GPA: 3.98/4.30, ranked 10 in School of Computing (2024).</span>
+</p>
+
+<p style="line-height:1.3">
   <span class="award"><b>KAIST-Qualcomm Innovation Award</b></span><br>
   <span class="award-description">Awarded to the top 7 teams in the hackthon (2023).</span>
 </p>
@@ -39,6 +44,11 @@ subtitle = ""
 </p>
 
 <p style="line-height:1.3">
+  <span class="award"><b>KAIST International Undergraduate Scholarship </b></span><br>
+  <span class="award-description">Cover full tuition fee and living expenses (2019-2024).</span>
+</p>
+
+<p style="line-height:1.3">
   <span class="award"><b>Vietnam Mathematical Olympiad</b></span><br>
-  <span class="award-description">Silver Medal (2018).</span>
+  <span class="award-description">Silver Medal at VMO (2018).</span>
 </p>
