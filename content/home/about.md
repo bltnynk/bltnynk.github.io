@@ -27,7 +27,7 @@ subtitle = ""
 }
 
 body{
-  font-size: 15pt;
+  font-size: 14pt;
   margin-left: 12%;
   margin-right: 12%;
 }
@@ -45,7 +45,7 @@ img {
 }
 
 #intro {
-  font-size: 15pt;
+  font-size: 14pt;
   margin-left: 270px;
   margin-right: 5%;
 }
@@ -55,7 +55,7 @@ img {
 }
 
 .section {
-  font-size: 27pt;
+  font-size: 25pt;
   font-weight: 500;
   margin-bottom: 7px;
 }
@@ -105,18 +105,18 @@ a:hover {
    padding-bottom: 10px;
  } 
  body {
-  font-size: 12pt;
+  font-size: 11pt;
   /* text-align:center; */
   margin-left: 0%;
   margin-right: 0%;
  }
  #intro {
-  font-size: 12pt;
+  font-size: 11pt;
   margin-left: 0px;
   margin-right: 0px;
  }
  .section {
-  font-size: 20pt;
+  font-size: 18pt;
  }
 }
 
@@ -124,7 +124,7 @@ a:hover {
   float: left;
   width: 288px;
   margin-right: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   text-align: center; /* centers icons under the image */
 }
 
@@ -170,7 +170,7 @@ a:hover {
   </div>
 </div>
 
-# **Thanh-Long V. Le**
+## **Thanh-Long V. Le**
 
 <div id='intro'>
 Hey there! Glad to have you here. Call me Long for short 😆.
