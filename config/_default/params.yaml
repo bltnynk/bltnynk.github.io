@@ -7,7 +7,7 @@
 
 appearance:
   theme_day: Yewon
-  theme_night: Yewon
+  # theme_night: Yewon
   font: Yewon
   font_size: XL
 
