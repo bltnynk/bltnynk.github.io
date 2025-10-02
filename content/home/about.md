@@ -12,7 +12,7 @@ subtitle = ""
   columns = "1"
 
 [design.spacing]
-  padding = ["25px", "0", "15px", "0"]
+  padding = ["30px", "0", "15px", "0"]
 
 +++
 
