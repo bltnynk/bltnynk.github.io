@@ -16,7 +16,7 @@ columns = "1"
   .tag {font-size: 21px;}
   .paper {font-size: 16pt; font-weight: bold}
   .authors {font-size: 14pt;}
-  .venue {font-size: 14pt;}
+  .venue {font-size: 14pt; font-weight: bold; font-style: italic}
   .note {font-size: 10pt;}
   .highlight {font-weight: 600; text-decoration: underline;}
   .paperaward {font-size: 14pt; font-weight: 600; color: #b1050e;}
@@ -37,7 +37,7 @@ columns = "1"
 <p style="line-height:1.3">
   <span class="paper">No Prompt Left Behind: Exploiting Zero-Variance Prompts in LLM Reinforcement Learning via Entropy-Guided Advantage Shaping</span><br>
   <span class="authors"><span class="highlight">Thanh-Long V. Le</span>, <a href="https://myeongho.com/">Myeongho Jeon</a>, Kim Vu, <a href="https://laiviet.github.io/">Viet Lai</a>, <a href="https://scholar.google.com/citations?user=UWO1mloAAAAJ&hl=en">Eunho Yang</a></span><br>
-  <span class="venue"><i>In Submission</i></span><br style="content: ' '; display: block; margin: 5px;">
+  <span class="venue">In Submission</span><br style="content: ' '; display: block; margin: 5px;">
   <a class="badge badge-light" href="https://arxiv.org/abs/2509.21880"><i class="far fa-file-alt"></i> Paper</a>
 </p>
 
@@ -51,7 +51,7 @@ columns = "1"
 </p>
 
 <p style="line-height:1.3">
-  <span class="paper">(FL)^2: Overcoming Few Labels in Federated Semi-Supervised Learning</span><br>
+  <span class="paper">(FL)<sup>2</sup>: Overcoming Few Labels in Federated Semi-Supervised Learning</span><br>
   <span class="authors"><a href="https://seungjoo.com/">Seungjoo Lee</a>, <span class="highlight">Thanh-Long V. Le</span>, <a href="https://jaemin-shin.github.io/">Jaemin Shin</a>, <a href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a></span><br>
   <span class="venue">NeurIPS 2024</span><br style="content: ' '; display: block; margin: 5px;">
   <a class="badge badge-light" href="https://arxiv.org/abs/2410.23227"><i class="far fa-file-alt"></i> Paper</a>
