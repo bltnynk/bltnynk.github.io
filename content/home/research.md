@@ -14,20 +14,20 @@ columns = "1"
 
 <style>
   .tag {font-size: 21px;}
-  .paper {font-size: 20px; font-weight: bold}
-  .authors {font-size: 18px;}
-  .venue {font-size: 18px;}
-  .note {font-size: 14px;}
+  .paper {font-size: 16pt; font-weight: bold}
+  .authors {font-size: 14pt;}
+  .venue {font-size: 14pt;}
+  .note {font-size: 10pt;}
   .highlight {font-weight: 600; text-decoration: underline;}
-  .paperaward {font-size: 18px; font-weight: 600; color: #b1050e;}
+  .paperaward {font-size: 14pt; font-weight: 600; color: #b1050e;}
   
   @media only screen and (max-width: 768px) {
-    .paper {font-size: 18px;}
-    .authors {font-size: 14px;}
-    .venue {font-size: 14px;}
-    .note {font-size: 12px;}
-    .highlight {font-size: 14px; font-weight: 600; text-decoration: underline;}
-    .paperaward {font-size: 14px; font-weight: 600;}
+    .paper {font-size: 13pt;}
+    .authors {font-size: 11pt;}
+    .venue {font-size: 11pt;}
+    .note {font-size: 9pt;}
+    .highlight {font-size: 11pt; font-weight: 600; text-decoration: underline;}
+    .paperaward {font-size: 11pt; font-weight: 600;}
   }
 </style>
 
