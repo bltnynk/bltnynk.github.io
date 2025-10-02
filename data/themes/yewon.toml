@@ -6,7 +6,7 @@ name = "Yewon"
   primary = "#333334" #294936
 
   # Menu
-  menu_primary = "#E7DDD7"
+  menu_primary = "#ffa871ff"
   menu_text = "#333334"
   menu_text_active = "#B1040E"
   menu_title = "#333334"
