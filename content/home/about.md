@@ -162,6 +162,9 @@ a:hover {
     <a href="https://scholar.google.com/citations?user=XjoR4p4AAAAJ&hl=en" title="Google Scholar">
       {{< icon name="graduation-cap" pack="fas" >}}
     </a>
+    <a href="uploads/ThanhLong_251001.pdf" title="CV" target="_blank">
+      {{< icon name="file" pack="fas" >}}
+    </a>
   </div>
 </div>
 
