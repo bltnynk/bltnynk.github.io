@@ -12,7 +12,7 @@ subtitle = ""
   columns = "1"
 
 [design.spacing]
-  padding = ["10px", "0", "10px", "0"]
+  padding = ["0", "0", "12px", "0"]
 +++
 <style>
 td, th {
@@ -42,7 +42,7 @@ td, th {
          </tr>
          <tr>
             <td><b>Apr. 2025</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
-            <td>🎉 One paper (2nd-author) has been accepted to DIS 2025.</td>
+            <td>🎉 One paper has been accepted to DIS 2025.</td>
          </tr>
          <tr>
             <td><b>Feb. 2025</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
@@ -50,7 +50,7 @@ td, th {
          </tr>
          <tr>
             <td><b>Sep. 2024</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
-            <td>🎉 One paper (2nd-author) has been accepted to NeurIPS 2024. This is my first paper ever at a top-tier conference.</td>
+            <td>🎉 One paper has been accepted to NeurIPS 2024. This is my publication at a top-tier conference.</td>
          </tr>
          <tr>
             <td><b>Feb. 2024</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
