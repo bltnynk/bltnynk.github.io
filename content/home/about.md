@@ -173,12 +173,12 @@ a:hover {
 # **Thanh-Long V. Le**
 
 <div id='intro'>
-Hello there! Glad to have you here.
+Hey there! Glad to have you here. Call me Long for short 😆.
 <div class='br'><br></div>
 
-I am a first-year M.S. student at <a class='ref' href="https://gsai.kaist.ac.kr/">KAIST AI</a>, co-advised by <a class='ref' href="https://mli.kaist.ac.kr/people/">Prof. Eunho Yang</a> and <a class='ref' href="https://laiviet.github.io/">Dr. Viet Lai</a> (Adobe Research). My research interests broadly span large language models (LLMs), with a particular focus on improving their reasoning abilities through reinforcement learning and other post-training methods. Recently, I am also beginning to explore generative modeling, with interests in diffusion models for video generation and diffusion-based LLMs.
+I am a first-year M.S. student at <a class='ref' href="https://gsai.kaist.ac.kr/">KAIST AI</a>, advised by <a class='ref' href="https://mli.kaist.ac.kr/people/">Prof. Eunho Yang</a> and working closely with <a class='ref' href="https://laiviet.github.io/">Dr. Viet Lai</a> (Adobe Research). My research centers on <b>large language models (LLMs)</b>, with a focus on enhancing their reasoning capabilities through <b>reinforcement learning</b> and other <b>post-training</b> techniques. Recently, I have also begun exploring generative modeling, particularly <b>diffusion models for video generation</b> and <b>diffusion-based LLMs</b>.
 
-Previously, I received my B.S. degree in Computer Science from <a class='ref' href="https://www.kaist.ac.kr/en/">KAIST</a>, where I was advised by <a class='ref' href="https://sites.google.com/site/wewantsj/">Prof. Sung-Ju Lee</a>.
+Previously, I received my B.S. degree in Computer Science at <a class='ref' href="https://www.kaist.ac.kr/en/">KAIST</a>, advised by <a class='ref' href="https://sites.google.com/site/wewantsj/">Prof. Sung-Ju Lee</a>.
 <div class='br'><br></div>
 
 <div class="contact-clear"></div>
