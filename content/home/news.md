@@ -20,15 +20,15 @@ td, th {
   vertical-align: top;
 }
 
-/* .news {
-  font-size: 20px;
+.news {
+  font-size: 14pt;
 }
 
 @media only screen and (max-width: 768px) {
   .news {
-    font-size: 16px;
+    font-size: 11pt;
   } 
-} */
+}
 </style>
 
 <!-- <div style="margin-left: 10%; margin-right: 10%;"> -->

@@ -100,31 +100,6 @@ a:hover {
   }
 }
 
-@media only screen and (max-width: 768px) {
- .profile-photo {
-   float: none;
-   width: 100%;
-   display: block;       /* sit on its own line */
-   /* padding-right: 10%; */
-   /* padding-left: 10%;  */
-   padding-bottom: 10px;
- } 
- body {
-  font-size: 11pt;
-  /* text-align:center; */
-  margin-left: 0%;
-  margin-right: 0%;
- }
- #intro {
-  font-size: 11pt;
-  margin-left: 0px;
-  margin-right: 0px;
- }
- .section {
-  font-size: 18pt;
- }
-}
-
 .profile-photo {
   float: left;
   width: 288px;
@@ -151,6 +126,30 @@ a:hover {
 
 .profile-icons a:hover {
   color: #4f8b04;
+}
+
+@media only screen and (max-width: 768px) {
+ .profile-photo {
+   float: middle;
+   width: 100%;
+   /* padding-right: 10%; */
+   /* padding-left: 10%;  */
+   padding-bottom: 10px;
+ } 
+ body {
+  font-size: 11pt;
+  /* text-align:center; */
+  margin-left: 0%;
+  margin-right: 0%;
+ }
+ #intro {
+  font-size: 11pt;
+  margin-left: 0px;
+  margin-right: 0px;
+ }
+ .section {
+  font-size: 18pt;
+ }
 }
 
 
