@@ -43,7 +43,7 @@ columns = "1"
 
 <p style="line-height:1.3">
   <span class="paper">Design Opportunities for Explainable AI Paraphrasing Tools: A User Study with Non-native English Speakers</span><br>
-  <span class="authors"><a href="https://yewon-kim.com/">Yewon Kim</span>, <span class="highlight">Thanh-Long V. Le</span>, <a href="http://donghwi.kim/">Donghwi Kim</a>, <a href="https://minalee-research.github.io/">Mina Lee</a><sup>&dagger;</sup>, <a href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a><sup>&dagger;</sup></span><br>
+  <span class="authors"><a href="https://yewon-kim.com/">Yewon Kim</a>, <span class="highlight">Thanh-Long V. Le</span>, <a href="http://donghwi.kim/">Donghwi Kim</a>, <a href="https://minalee-research.github.io/">Mina Lee</a><sup>&dagger;</sup>, <a href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a><sup>&dagger;</sup></span><br>
   <span class="note"><sup>&dagger;</sup>Equal senior role</span><br>
   <span class="venue">DIS 2025</span><br style="content: ' '; display: block; margin: 5px;">
   <a class="badge badge-light" href="https://arxiv.org/abs/2405.07475"><i class="far fa-file-alt"></i> Paper</a>
@@ -52,7 +52,7 @@ columns = "1"
 
 <p style="line-height:1.3">
   <span class="paper">(FL)^2: Overcoming Few Labels in Federated Semi-Supervised Learning</span><br>
-  <span class="authors"><a href="https://seungjoo.com/">Seungjoo Lee</span>, <span class="highlight">Thanh-Long V. Le</span>, <a href="https://jaemin-shin.github.io/">Jaemin Shin</a>, <a href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a></span><br>
+  <span class="authors"><a href="https://seungjoo.com/">Seungjoo Lee</a>, <span class="highlight">Thanh-Long V. Le</span>, <a href="https://jaemin-shin.github.io/">Jaemin Shin</a>, <a href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a></span><br>
   <span class="venue">NeurIPS 2024</span><br style="content: ' '; display: block; margin: 5px;">
   <a class="badge badge-light" href="https://arxiv.org/abs/2410.23227"><i class="far fa-file-alt"></i> Paper</a>
     <a class="badge badge-light" href="https://nmsl.kaist.ac.kr/projects/fl2/"><i class="fa fa-home"></i> Website</a>
