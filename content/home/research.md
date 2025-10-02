@@ -31,7 +31,7 @@ columns = "1"
   }
 </style>
 
-<h2 class="section">Research</h2>
+<h2 class="section">Publications</h2>
 <hr class="divider"></hr>
 
 <p style="line-height:1.3">
