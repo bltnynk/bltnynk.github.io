@@ -16,12 +16,12 @@ subtitle = ""
 +++
 
 <style>
-  .award {font-size: 21px;}
-  .award-description {font-size: 18px;}
+  .award {font-size: 16pt;}
+  .award-description {font-size: 14pt;}
 
   @media only screen and (max-width: 768px) {
-    .award {font-size: 18px;}
-    .award-description {font-size: 14px;}
+    .award {font-size: 13pt;}
+    .award-description {font-size: 11pt;}
   }
 </style>
 
