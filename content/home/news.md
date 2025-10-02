@@ -41,16 +41,16 @@ td, th {
             <th></th>
          </tr>
          <tr>
-            <td><b>Apr. 2024</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
-            <td>:tulip: One paper (2nd-author) has been accepted to DIS 2025.</td>
+            <td><b>Apr. 2025</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
+            <td>🎉 One paper (2nd-author) has been accepted to DIS 2025.</td>
          </tr>
          <tr>
             <td><b>Feb. 2025</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
-            <td>:sparkling_heart: I started my M.S. in MLILAB at KAIST AI.</td>
+            <td>🏫 I started my M.S. in MLILAB at KAIST AI.</td>
          </tr>
          <tr>
             <td><b>Sep. 2024</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
-            <td>:tulip: One paper (2nd-author) has been accepted to NeurIPS 2024. This is my first paper ever at a top-tier conference.</td>
+            <td>🎉 One paper (2nd-author) has been accepted to NeurIPS 2024. This is my first paper ever at a top-tier conference.</td>
          </tr>
          <tr>
             <td><b>Feb. 2024</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
@@ -58,7 +58,7 @@ td, th {
          </tr>
          <tr>
             <td><b>Jun. 2023</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
-            <td>:four_leaf_clover: I joined KAIST NMSL as a research intern.</td>
+            <td>🏫 I joined KAIST NMSL as a research intern.</td>
          </tr>
          <!-- <tr>
             <td><b>Aug. 2025</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>

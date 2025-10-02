@@ -30,7 +30,7 @@ subtitle = ""
 
 <p style="line-height:1.3">
   <span class="award"><b>Magna Cum Laude</b></span><br>
-  <span class="award-description">GPA: 3.98/4.30, ranked 10 in School of Computing (2024).</span>
+  <span class="award-description">GPA: 3.98/4.30, ranked 10 in School of Computing, KAIST (2024).</span>
 </p>
 
 <p style="line-height:1.3">
