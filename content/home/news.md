@@ -20,7 +20,7 @@ td, th {
   vertical-align: top;
 }
 
-.news {
+/* .news {
   font-size: 20px;
 }
 
@@ -28,7 +28,7 @@ td, th {
   .news {
     font-size: 16px;
   } 
-}
+} */
 </style>
 
 <!-- <div style="margin-left: 10%; margin-right: 10%;"> -->
