@@ -118,6 +118,17 @@ a:hover {
  }
 }
 
+.contact-icon {
+  font-size: 22px; /* make icons bigger if you want */
+  margin-right: 20px;
+}
+
+.contact-icon a {
+  color: inherit; /* keep same text color */
+  text-decoration: none;
+}
+
+
 </style>
 
 <img src="uploads/long-narrow.png " alt="Thanh-Long V. Le">
@@ -125,14 +136,33 @@ a:hover {
 # **Thanh-Long V. Le**
 
 <div id='intro'>
-Hello there. Glad to have you here!
+Hello there! Glad to have you here.
 
-I am a first-year M.S. student at <a class='ref' href="https://gsai.kaist.ac.kr/">KAIST AI</a>, co-advised by <a class='ref' href="https://mli.kaist.ac.kr/people/">Prof. Eunho Yang</a> and <a class='ref' href="https://laiviet.github.io/">Dr. Viet Lai</a> (Adobe Research). My research interests broadly span large language models (LLMs), with a particular focus on improving their reasoning abilities through reinforcement learning and other post-training methods.
 
-<div class='br'><br></div>
+I am a first-year M.S. student at <a class='ref' href="https://gsai.kaist.ac.kr/">KAIST AI</a>, co-advised by <a class='ref' href="https://mli.kaist.ac.kr/people/">Prof. Eunho Yang</a> and <a class='ref' href="https://laiviet.github.io/">Dr. Viet Lai</a> (Adobe Research). My research interests broadly span large language models (LLMs), with a particular focus on improving their reasoning abilities through reinforcement learning and other post-training methods. Recently, I am also beginning to explore generative modeling, with interests in diffusion models for video generation and diffusion-based LLMs.
+
 Previously, I received my B.S. degree in Computer Science from <a class='ref' href="https://www.kaist.ac.kr/en/">KAIST</a>, where I was advised by <a class='ref' href="https://sites.google.com/site/wewantsj/">Prof. Sung-Ju Lee</a>.
 
 <div class='br'><br></div>
-[{{< icon name="envelope" pack="fas" >}} Email](mailto:thanhlongtdk2000@gmail.com) &nbsp;&nbsp;&nbsp;&nbsp; [{{< icon name="linkedin" pack="fas" >}} LinkedIn](https://www.linkedin.com/in/bltnynk/) &nbsp;&nbsp;&nbsp;&nbsp; [{{< icon name="graduation-cap" pack="fas" >}} Google Scholar](https://scholar.google.com/citations?user=XjoR4p4AAAAJ&hl=en) &nbsp;&nbsp;&nbsp;&nbsp;
+<div class="contact-clear"></div>
+
+<span class="contact-icon">
+  <a href="mailto:thanhlong0780@kaist.ac.kr" title="Email">
+    {{< icon name="envelope" pack="fas" >}}
+  </a>
+</span>
+
+<span class="contact-icon">
+  <a href="https://www.linkedin.com/in/bltnynk/" title="LinkedIn">
+    {{< icon name="linkedin-in" pack="fab" >}}
+  </a>
+</span>
+
+<span class="contact-icon">
+  <a href="https://scholar.google.com/citations?user=XjoR4p4AAAAJ&hl=en" title="Google Scholar">
+    {{< icon name="graduation-cap" pack="fas" >}}
+  </a>
+</span>
+
 </div>
 <!-- [{{< icon name="file" pack="fas" >}} CV](uploads/CV_YewonKim.pdf) -->
