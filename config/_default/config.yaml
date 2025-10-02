@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Thanh-Long V. Le # Website name
+title: Thanh-Long # Website name
 baseURL: 'bltnynk.github.io' # Website URL
 
 ############################
