@@ -124,7 +124,7 @@ a:hover {
   float: left;
   width: 288px;
   margin-right: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   text-align: center; /* centers icons under the image */
 }
 
