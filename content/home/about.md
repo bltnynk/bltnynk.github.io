@@ -77,7 +77,7 @@ a {
   }
 a:hover {
   text-decoration: none;
-  color: #4f8b04; /* #EC7D3C #856256 */
+  color: #01796F;
 }
 
 
@@ -106,7 +106,7 @@ a:hover {
 }
 
 .profile-icons a:hover {
-  color: #4f8b04;
+  color: #01796F;
 }
 
 /*1410 - 1100*/

@@ -32,6 +32,9 @@ columns = "1"
     .highlight {font-size: 11pt; font-weight: 600; text-decoration: underline;}
     .paperaward {font-size: 11pt; font-weight: 600;}
   }
+a:hover {
+  color: #01796F;
+}
 </style>
 
 <h2 class="section">Publications</h2>
