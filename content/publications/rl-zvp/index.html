@@ -22,6 +22,8 @@ body {
     body {
         width: 980px;
     }
+    .fig-main-narrow { width: 80%; }
+
 }
 
 h1 {
@@ -180,18 +182,25 @@ figure {
     margin-bottom: 10px;
 }
 
-#fig-main {
+.fig-main,
+.fig-main-narrow {
     display: block;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 35px;
 }
 
-#fig-main img {
+.fig-main-narrow {
+    width: 66%;
+}
+
+.fig-main img,
+.fig-main-narrow img {
     width: 100%; 
 }
 
-#fig-main .caption {
+.fig-main .caption,
+.fig-main-narrow .caption {
     font-size: 15px;
     font-style: italic;
     margin-top: 8px;
@@ -389,7 +398,11 @@ pre {
     }
 
     h1 {
-        font-size: 22px !important;
+        font-size: 23px !important;
+    }
+
+    h2 {
+        font-size: 21px !important;
     }
 
     .author-row {
@@ -733,7 +746,7 @@ td:first-child {
             <!-- <div class="video-container">
                 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/FbFD3B2OCo8?si=rqf7r0buInR5AXOS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div> -->
-            <div id="fig-main">
+            <div class="fig-main">
                 <img src="assets/abstract_intro.png" alt="">
                 <p class="caption"><b>Left:</b> RL-ZVP employs an entropy-guided advantage shaping formula to extract learning signals from zero-variance prompts. For non-zero-variance prompts, it reverts to the standard GRPO formulation. <b>Right: </b> RL-ZVP demonstrates significantly higher average accuracy than GRPO on both Qwen3-1.7B-Base and Qwen3-8B-Base across six math reasoning benchmarks.</p>
             </div>
@@ -748,7 +761,7 @@ td:first-child {
                 Reinforcement Learning with Verifiable Rewards (RLVR) is a powerful framework for improving the reasoning abilities of Large Language Models (LLMs). However, current methods such as GRPO rely only on problems where the model responses to the same input differ in correctness, while ignoring those where all responses receive the same reward - so-called <b class="abstract-highlight">zero-variance prompts</b>. In this work, we argue that such prompts are <b class="abstract-highlight">not useless but can, in fact, provide meaningful feedback</b> for policy optimization. To this end, we introduce <b class="abstract-highlight">RL with Zero-Variance Prompts (RL-ZVP)</b>, a novel algorithm that extract learning signals from zero-variance prompts. RL-ZVP directly rewards correctness and penalizes errors even without contrasting responses, modulating feedback with token-level characteristics to preserve informative, nuanced signals. Across six math reasoning benchmarks, RL-ZVP achieves significant <b class="abstract-highlight">improvements of up to 8.61 points in accuracy and 7.77 points in pass rate</b> over GRPO, while consistently outperforming other baselines that filter out zero-variance prompts. Our results highlight the untapped potential of learning from zero-variance prompts in RLVR. <b class="abstract-highlight">To our best knowledge, this is the first work to demonstrate that zero-variance prompts can be exploited rather than discarded</b>. We believe this perspective opens a new direction for RL training, with possibilities for even larger gains through refined formulations in future work.
             </p>
 
-            <div id="fig-main", style="width: 66%;">
+            <div class="fig-main-narrow">
                 <img src="assets/motivation.png" alt="">
                 <p class="caption"><b>Left:</b> Rollout generation overhead as a percentage of total training step time. <b>Right: </b>The percentage of zero-variance prompts. <b class="abstract-highlight">Post-rollout filtering still incurs massive overhead on the policy training, while pre-rollout filtering ignores potential learning signals from zero-variance prompts.</b></p>
             </div>
@@ -768,15 +781,15 @@ td:first-child {
                 </ul>
             </p>
 
-            <div id="fig-main">
+            <div class="fig-main">
                 <img src="assets/main_table.png" alt="">
                 <p class="caption"><b>Detailed evaluation results on six math reasoning benchmarks</b>. The best and second best performance across all settings are <b>bold</b> and <u>underscored</u>, respectively. Under a fair setup of equal rollout budget, RL-ZVP achieves the best performance across all datasets, heavily outperforming GRPO. (*) Even in the unfavorable setting where Dynamic Sampling baselines use 3 to 5 times more rollouts, RL-ZVP still outperforms them on the majority of benchmarks.</p>
             </div>
-            <div id="fig-main">
+            <div class="fig-main">
                 <img src="assets/main_perf.png" alt="">
                 <p class="caption"><b>Average accuracy (a) and pass rate (b)</b> on six math reasoning benchmarks across model scale and training methods. RL-ZVP consistently delivers the strongest performance among all baselines.</p>
             </div>
-            <div id="fig-main">
+            <div class="fig-main">
                 <img src="assets/main_dynamics.png" alt="">
                 <p class="caption"><b>Validation accuracy and training dynamics</b> at different experiment scales. Each row shows Acc@8, entropy, and response length during training for Qwen3-1.7B-Base (top) and Qwen3-8B-Base (bottom). RL-ZVP exhibits more consistent and stable trends than GRPO.</div>
         </div>
@@ -788,11 +801,11 @@ td:first-child {
                 We further validate the effectiveness of RL-ZVP on an alternative training dataset. Results show that RL-ZVP is effective not only across evaluation benchmarks but also across different training datasets, emphasizing its robustness and generalization.
             </p>
 
-            <div id="fig-main">
+            <div class="fig-main">
                 <img src="assets/additional_table.png" alt="">
                 <p class="caption"><b>Additional evaluation results</b> on six math reasoning benchmarks when the model is trained with NuminaMath-CoT.</p>
             </div>
-            <div id="fig-main">
+            <div class="fig-main">
                 <img src="assets/additional_dynamics.png" alt="">
                 <p class="caption"><b>Validation accuracy and training dynamics</b> at different experiment scales.
             </div>
