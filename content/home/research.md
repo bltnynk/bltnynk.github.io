@@ -42,6 +42,7 @@ columns = "1"
   <span class="authors"><span class="highlight">Thanh-Long V. Le</span>, <a href="https://myeongho.com/">Myeongho Jeon</a>, Kim Vu, <a href="https://laiviet.github.io/">Viet Lai</a>, <a href="https://scholar.google.com/citations?user=UWO1mloAAAAJ&hl=en">Eunho Yang</a></span><br>
   <span class="venue">In Submission</span><br style="content: ' '; display: block; margin: 5px;">
   <a class="badge badge-light" href="https://arxiv.org/abs/2509.21880"><i class="far fa-file-alt"></i> Paper</a>
+  <a class="badge badge-light" href="https://bltnynk.github.io/publications/rl-zvp"><i class="fa fa-home"></i> Website</a>
 </p>
 
 <p style="line-height:1.3">

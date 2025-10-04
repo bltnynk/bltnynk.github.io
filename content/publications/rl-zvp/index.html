@@ -1,0 +1,902 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<style type="text/css">
+body {
+    font-family: "Roboto", "Titillium Web", "Barlow", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 350;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f9f7f6;
+}
+
+@media screen and (min-width: 980px){
+    body {
+        width: 980px;
+    }
+}
+
+h1 {
+    font-family: "Barlow"; 
+    font-size: 40px !important;
+    font-weight:650;
+    line-height: 1.15em;
+    text-align: left;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #01796F;
+}
+
+h2,h3 {
+    text-align: left;
+}
+
+
+h2 {
+    font-weight: 450;
+    margin: 16px 0px 4px 0px;
+}
+h3 {
+    font-weight: 450;
+    font-size: 24px;
+    margin: 16px 0px 4px 0px;
+}
+
+.paper-title {
+    padding-top: 10px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section {
+    margin: 32px 0px 32px 0px;
+    text-align: justify;
+    clear: both;
+}
+
+.col-5 {
+     width: 20%;
+     float: left;
+}
+.col-4 {
+     width: 25%;
+     float: left;
+}
+.col-3 {
+     width: 33%;
+     float: left;
+}
+.col-2 {
+     width: 50%;
+     float: left;
+}
+.col-1 {
+     width: 100%;
+     float: left;
+}
+
+.author-row {
+    font-size: 20px;
+}
+
+.author-row a {
+    display: inline-block;
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+
+.author-row sup {
+    color: #313436;
+    font-size: 12px;
+}
+
+.affiliations {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.affiliations sup {
+    font-size: 12px;
+}
+
+.row {
+    margin: 16px 0px 16px 0px;
+}
+.authors {
+    text-align: left;
+    font-size: 24px;
+}
+.affiliatons {
+    font-size: 18px;
+}
+.filler-row {
+    margin-top: 12px;
+}
+.teaser {
+    max-width: 100%;
+}
+.text-center {
+    text-align: center;  
+}
+.screenshot {
+    width: 256px;
+    border: 1px solid #ddd;
+}
+.screenshot-el {
+    margin-bottom: 16px;
+}
+hr {
+    height: 1.5px;
+    border: 0;
+    border-top: 1.5px solid #b0b0b0;
+    margin: 0;
+}
+.material-icons {
+    vertical-align: -6px;
+}
+p {
+    line-height: 1.25em;
+}
+.caption {
+    font-size: 16px;
+    color: #666;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+video {
+    display: block;
+    margin: auto;
+}
+
+figure {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#fig-main {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+#fig-main img {
+    width: 100%; 
+}
+
+#fig-main .caption {
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
+}
+
+#bibtex pre {
+    font-size: 14px;
+    background-color: #eee;
+    padding: 16px;
+}
+
+.textbox {
+    line-height: 160%;
+}
+
+.green {
+    color: #01796F;
+    font-weight: bold;
+}
+.orange {
+    color: #d35400;
+    font-weight: bold;
+}
+.highlight {
+    color: #01796F;
+}
+.flex-row {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.coming-soon {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}
+
+.link-btn-parent {
+    display: flex;
+    justify-content: left;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    gap: 15px;
+}
+
+.link-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    font-size: 15px;
+    font-weight: 550;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #eeedec;
+    transition: all 0.3s ease;
+}
+
+.link-btn:hover {
+    background-color: #e3e1df;
+}
+
+.venue {
+    font-size: 23px;
+}
+
+.topnav {
+    background-color: #EEEEEE;
+    overflow: hidden;
+}
+
+.topnav div {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+.topnav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topnav img {
+    padding: 2px 0px;
+    width: 100%;
+    margin: 0.2em 0px 0.3em 0px;
+    vertical-align: middle;
+}
+
+pre {
+    font-size: 0.9em;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 3px;
+    background-color: rgb(235, 235, 235);
+    overflow-x: auto;
+}
+
+.download-thumb {
+    display: flex;
+}
+
+@media only screen and (max-width: 620px) {
+    .download-thumb {
+        display: none;
+    }
+}
+
+.paper-stuff {
+    width: 50%;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 620px) {
+    .paper-stuff {
+        width: 100%;
+    }
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  text-align: center;
+  float: left;
+  width: 16.666%;
+  padding: 5px;
+}
+.column3 {
+  text-align: center;
+  float: left;
+  width: 33.333%;
+  padding: 5px;
+}
+.border-right {
+    border-right: 1px solid black;
+}
+.border-bottom{
+    border-bottom: 1px solid black;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.25fr;
+    gap: 10px;
+    width: 100%; 
+}
+
+.image-grid img {
+    width: 100%; 
+}
+
+.image-grid img:first-child {
+    object-fit: contain;
+}
+
+/* ----------------------------------- Responsive */
+@media screen and (max-width: 650px) {
+    
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .column {
+        width: 100%;
+    }
+
+    .column3 {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 22px !important;
+    }
+
+    .author-row {
+        font-size: 16px;
+    }
+
+    .author-row a {
+        font-size: 16px;
+        padding-bottom: 2px;
+    }
+
+    .author-row sup {
+        font-size: 10px;
+    }
+
+    .affiliations {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .affiliations sup {
+        font-size: 10px;
+    }
+
+    blockquote {
+        font-size: 16px;
+        padding: 10px 10px !important;
+    }
+
+    .song-description {
+        align-items: start;
+        gap: 2px 16px;
+    }
+
+    .label {
+        align-self: start;
+        font-size: 18px !important;
+    }
+
+    #carouselSelector {
+        padding: 5px 20px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    colgroup col.index-col {
+        width: 5%; 
+    }
+
+    colgroup col.coherence-audio-col {
+        width: 31.666%; 
+    }
+
+    colgroup col.relevance-keywords-col {
+        width: 24%; 
+    }
+
+    colgroup col.relevance-audio-col {
+        width: 25.333%; 
+    }
+
+    .audio-player {
+        height: 40px;
+    }
+
+
+}
+/* ----------------------------------- Responsive */
+
+.figure img {
+    width: 100%; 
+}
+
+.image-grid-three {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    width: 90%;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+.image-grid-three img {
+    width: 100%; 
+}
+
+.image-grid-tab {
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1.22fr;
+    gap: 10px;
+    width: 90%;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+.image-grid-tab img {
+    width: 100%; 
+}
+
+blockquote {
+    /* background-color: #eeedec;  */
+    background-color: #eeeeee;
+    margin: 0;
+    border-radius: 5px;
+    padding: 12px 30px; 
+    font-weight: 400;
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.navigator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.navigator button {
+    background-color: #6DAA96; 
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    height: 40px;
+    transition: all 0.3s ease;
+}
+
+.navigator button:hover {
+    background-color: #01796F;
+}
+
+.navigator button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#carouselSelector {
+    text-align: center;
+    appearance: none;
+    background-image: none;
+    background-color: #fff;
+    padding: 5px 30px;
+    height: 40px;
+    transition: all 0.3s ease;
+}
+
+#carouselSelector:hover {
+    background-color: #eee;
+    color: #01796F;
+}
+
+.carousel-item div {
+    text-align: left; /* Ensure text aligns to the left */
+}
+
+iframe {
+    display: block;
+    margin-left: 0; /* Align iframe to the left */
+}
+
+.song-container {
+    margin-bottom: 30px;
+}
+
+.song-description {
+    display: grid;
+    align-items: center;
+    grid-template-columns: max-content 1fr; /* Two columns: labels and values */
+    gap: 0px 16px; /* Spacing between rows and columns */
+    line-height: 1.4; /* Add line spacing for readability */
+    margin-bottom: 8px;
+}
+
+.label {
+    /* font-weight: bold; */
+    font-size: 22px;
+    white-space: nowrap; /* Prevents labels from wrapping */
+    text-align: left; /* Align labels to the left */
+}
+
+.value {
+    text-align: left; /* Align values to the left */
+    word-break: break-word; /* Break long words naturally */
+}
+
+/* ----------------------------------- Audio table */
+
+table {
+    width: 95%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    table-layout: fixed;
+}
+
+colgroup col.index-col {
+    width: 4%; 
+}
+
+colgroup col.coherence-audio-col {
+    width: 32%; 
+}
+
+colgroup col.relevance-keywords-col {
+    width: 22%; 
+}
+
+colgroup col.relevance-audio-col {
+    width: 26%; 
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 2px solid #ddd; /* Only horizontal line for headers */
+}
+
+td {
+    border-bottom: 1px solid #ddd; /* Horizontal lines between rows */
+}
+
+tr:last-child td {
+    border-bottom: 2px solid #ddd;
+}
+
+td:first-child {
+    padding-right: 20px; /* Add space between the text and the audio player column */
+}
+
+.audio-player {
+    width: 100%;
+    max-width: 300px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.abstract-highlight {
+    color: #01796F;
+}
+
+/* .row-header {
+    text-align: left;
+    font-weight: bold;
+    background-color: #f9f9f9;
+} */
+
+</style>
+
+<script type="text/javascript" src="../js/hidebib.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <head>
+        <title>No Prompt Left Behind: Exploiting Zero-Variance Prompts in LLM Reinforcement Learning via Entropy-Guided Advantage Shaping</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:description" content="No Prompt Left Behind: Exploiting Zero-Variance Prompts in LLM Reinforcement Learning via Entropy-Guided Advantage Shaping"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link href="https://fonts.googleapis.com/css2?family=FontAwesome" rel="stylesheet">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:creator" content="@haiyewon">
+        <meta name="twitter:title" content="No Prompt Left Behind: Exploiting Zero-Variance Prompts in LLM Reinforcement Learning via Entropy-Guided Advantage Shaping">
+    </head>
+
+<body>
+    <div class="container">
+        <div class="paper-title">
+            <h1>
+                No Prompt Left Behind: Exploiting Zero-Variance Prompts in LLM Reinforcement Learning via Entropy-Guided Advantage Shaping
+            </h1>
+        </div>
+
+        <div id="authors">
+            
+                <div class="author-row">
+                    <a href="https://bltnynk.github.io/">Thanh-Long V. Le<sup>1</sup></a>,
+                    <a href="https://myeongho.com/">Myeongho Jeon<sup>2</sup></a>,
+                    Kim Vu<sup>1</sup>,
+                    <a href="https://laiviet.github.io/">Viet Lai<sup>3</sup></a>,
+                    <a href="https://scholar.google.com/citations?user=UWO1mloAAAAJ&hl=en">Eunho Yang<sup>1</sup></a>
+                </div>
+            
+            <div class="affiliations">
+                <span><sup>1</sup>KAIST</span>&nbsp;&nbsp;&nbsp;
+                <span><sup>2</sup>EPFL</span>&nbsp;&nbsp;&nbsp;
+                <span><sup>3</sup>Adobe Research</span>&nbsp;&nbsp;&nbsp;
+            </div>
+
+            <hr>
+        </div>
+
+        <div id="resources">
+            <div class="link-btn-parent">
+                <a class="link-btn" href="https://arxiv.org/abs/2509.21880">
+                    <i class="fa-regular fa-file-lines"></i>
+                    Paper
+                </a>   
+                <a class="link-btn">
+                    <span class="fab fa-github"></span> 
+                    Code (To be released)
+                </a>           
+            </div>
+        </div>
+
+        <div id="intro", style="margin-bottom:45px;">
+            <!-- <h2>Overview</h2> -->
+            <!-- <hr style="margin-top: 5px; margin-bottom: 20px;"> -->
+            <blockquote>    
+                <i>We present <b class="highlight">RL-ZVP</b>, a novel RL algorithm built on GRPO that <b class="highlight">leverages zero-variance prompts</b> to provide <b class="highlight"></b>additional training signal</b> and enhance the reasoning ability of large language models.</i>
+            </blockquote> 
+            
+            <!-- <div class="video-container">
+                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/FbFD3B2OCo8?si=rqf7r0buInR5AXOS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div> -->
+            <div id="fig-main">
+                <img src="assets/abstract_intro.png" alt="">
+                <p class="caption"><b>Left:</b> RL-ZVP employs an entropy-guided advantage shaping formula to extract learning signals from zero-variance prompts. For non-zero-variance prompts, it reverts to the standard GRPO formulation. <b>Right: </b> RL-ZVP demonstrates significantly higher average accuracy than GRPO on both Qwen3-1.7B-Base and Qwen3-8B-Base across six math reasoning benchmarks.</p>
+            </div>
+              
+       
+        </div>
+
+        <div id="abstract", style="margin-bottom:45px;">
+            <h2>Abstract</h2>
+            <hr style="margin-top: 5px; margin-bottom: 10px;">
+            <p class="textbox" style="margin-bottom: 20px; text-align: justify;">
+                Reinforcement Learning with Verifiable Rewards (RLVR) is a powerful framework for improving the reasoning abilities of Large Language Models (LLMs). However, current methods such as GRPO rely only on problems where the model responses to the same input differ in correctness, while ignoring those where all responses receive the same reward - so-called <b class="abstract-highlight">zero-variance prompts</b>. In this work, we argue that such prompts are <b class="abstract-highlight">not useless but can, in fact, provide meaningful feedback</b> for policy optimization. To this end, we introduce <b class="abstract-highlight">RL with Zero-Variance Prompts (RL-ZVP)</b>, a novel algorithm that extract learning signals from zero-variance prompts. RL-ZVP directly rewards correctness and penalizes errors even without contrasting responses, modulating feedback with token-level characteristics to preserve informative, nuanced signals. Across six math reasoning benchmarks, RL-ZVP achieves significant <b class="abstract-highlight">improvements of up to 8.61 points in accuracy and 7.77 points in pass rate</b> over GRPO, while consistently outperforming other baselines that filter out zero-variance prompts. Our results highlight the untapped potential of learning from zero-variance prompts in RLVR. <b class="abstract-highlight">To our best knowledge, this is the first work to demonstrate that zero-variance prompts can be exploited rather than discarded</b>. We believe this perspective opens a new direction for RL training, with possibilities for even larger gains through refined formulations in future work.
+            </p>
+
+            <div id="fig-main", style="width: 66%;">
+                <img src="assets/motivation.png" alt="">
+                <p class="caption"><b>Left:</b> Rollout generation overhead as a percentage of total training step time. <b>Right: </b>The percentage of zero-variance prompts. <b class="abstract-highlight">Post-rollout filtering still incurs massive overhead on the policy training, while pre-rollout filtering ignores potential learning signals from zero-variance prompts.</b></p>
+            </div>
+        </div>
+
+        <div id="main_results", style="margin-bottom:45px;">
+            <h2>Main Results</h2>
+            <hr style="margin-top: 5px; margin-bottom: 10px;">
+            <p class="textbox" style="margin-bottom: 10px; text-align: justify;">
+                RL-ZVP shows significant effectiveness on six math reasoning benchmarks:
+                <ul class="bullets">
+                    <li>Achieving improvements of up to 8.61 points in accuracy and 7.77 points in pass rate over GRPO.</li>
+                    <li>Consistently outperforming prompt-filtering baselines, even under disadvantageous settings.</li>
+                    <li>Demonstrating a more stable and consistent learning process.</li>
+                    <li>Encouraging longer and more confident reasoning across model scale.</li>
+                    <li>Facilitating more sophisticated reasoning even with small policy models (see the qualitative examples in the paper).</li>
+                </ul>
+            </p>
+
+            <div id="fig-main">
+                <img src="assets/main_table.png" alt="">
+                <p class="caption"><b>Detailed evaluation results on six math reasoning benchmarks</b>. The best and second best performance across all settings are <b>bold</b> and <u>underscored</u>, respectively. Under a fair setup of equal rollout budget, RL-ZVP achieves the best performance across all datasets, heavily outperforming GRPO. (*) Even in the unfavorable setting where Dynamic Sampling baselines use 3 to 5 times more rollouts, RL-ZVP still outperforms them on the majority of benchmarks.</p>
+            </div>
+            <div id="fig-main">
+                <img src="assets/main_perf.png" alt="">
+                <p class="caption"><b>Average accuracy (a) and pass rate (b)</b> on six math reasoning benchmarks across model scale and training methods. RL-ZVP consistently delivers the strongest performance among all baselines.</p>
+            </div>
+            <div id="fig-main">
+                <img src="assets/main_dynamics.png" alt="">
+                <p class="caption"><b>Validation accuracy and training dynamics</b> at different experiment scales. Each row shows Acc@8, entropy, and response length during training for Qwen3-1.7B-Base (top) and Qwen3-8B-Base (bottom). RL-ZVP exhibits more consistent and stable trends than GRPO.</div>
+        </div>
+
+        <div id="additional_results", style="margin-bottom:45px;">
+            <h2>Additional Results</h2>
+            <hr style="margin-top: 5px; margin-bottom: 10px;">
+            <p class="textbox" style="margin-bottom: 10px; text-align: justify;">
+                We further validate the effectiveness of RL-ZVP on an alternative training dataset. Results show that RL-ZVP is effective not only across evaluation benchmarks but also across different training datasets, emphasizing its robustness and generalization.
+            </p>
+
+            <div id="fig-main">
+                <img src="assets/additional_table.png" alt="">
+                <p class="caption"><b>Additional evaluation results</b> on six math reasoning benchmarks when the model is trained with NuminaMath-CoT.</p>
+            </div>
+            <div id="fig-main">
+                <img src="assets/additional_dynamics.png" alt="">
+                <p class="caption"><b>Validation accuracy and training dynamics</b> at different experiment scales
+            </div>
+        </div>
+
+        <div id="bibtex">
+            <h2>Citation</h2>
+            <hr style="margin-top: 5px; margin-bottom: 10px;">
+            <pre><code>@misc{le2025promptleftbehindexploiting,
+      title={No Prompt Left Behind: Exploiting Zero-Variance Prompts in LLM Reinforcement Learning via Entropy-Guided Advantage Shaping}, 
+      author={Thanh-Long V. Le and Myeongho Jeon and Kim Vu and Viet Lai and Eunho Yang},
+      year={2025},
+      eprint={2509.21880},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2509.21880}, 
+}</code></pre>
+        </div>
+    </div>
+    <footer style="text-align: center; padding-bottom: 20px; font-size: 14px; color: #666;">
+        Original template by <a href="https://sihyun.me" target="_blank" style="color: #01796F; text-decoration: none;">Sihyun Yu</a> and <a href="https://yewon-kim.com" target="_blank" style="color: #01796F; text-decoration: none;">Yewon Kim</a>, modified by <a href="https://bltnynk.github.io/" target="_blank" style="color: #01796F; text-decoration: none;">Thanh-Long V. Le</a>
+    </footer>
+    
+
+    <script>
+        const carouselElement = document.querySelector('#soundcloudCarousel');
+        const carousel = new bootstrap.Carousel(carouselElement, {
+            interval: false,
+        });
+        const carouselItems = document.querySelectorAll('.carousel-item');
+        const prevButton = document.querySelector('#prevButton');
+        const nextButton = document.querySelector('#nextButton');
+        const dropdown = document.querySelector('#carouselSelector');
+        const videos = document.querySelectorAll('video');
+
+        let currentIndex = 0;
+
+        // Function to pause all videos
+        function pauseAllVideos() {
+            videos.forEach((video) => {
+                video.pause();
+                video.currentTime = 0; // Optional: Reset the video to the beginning
+            });
+        }
+        
+        // Update carousel and dropdown based on the index
+        function updateCarousel(index) {
+            pauseAllVideos(); 
+            currentIndex = index;
+            carousel.to(index);
+            dropdown.value = index;
+            prevButton.disabled = index === 0;
+            nextButton.disabled = index === carouselItems.length - 1;
+        }
+
+        // Handle dropdown selection
+        dropdown.addEventListener('change', (e) => {
+            const selectedIndex = parseInt(e.target.value, 10);
+            updateCarousel(selectedIndex);
+        });
+
+        // Handle Previous button
+        prevButton.addEventListener('click', () => {
+            if (currentIndex > 0) {
+                updateCarousel(currentIndex - 1);
+            }
+        });
+
+        // Handle Next button
+        nextButton.addEventListener('click', () => {
+            if (currentIndex < carouselItems.length - 1) {
+                updateCarousel(currentIndex + 1);
+            }
+        });
+
+        // Pause other videos when a video starts playing
+        videos.forEach((video) => {
+            video.addEventListener('play', () => {
+                videos.forEach((v) => {
+                    if (v !== video) {
+                        v.pause();
+                        v.currentTime = 0; // Optional: Reset the video to the beginning
+                    }
+                });
+            });
+        });
+
+        // Initialize carousel (optional random start)
+        updateCarousel(Math.floor(Math.random() * carouselItems.length));
+
+        fetch('https://ipapi.co/json/')
+            .then(response => response.json())
+            .then(data => {
+            const country = data.country;
+                if (country === "KR") {
+                    document.getElementById("kr-video").style.display = "block";
+                } else {
+                    document.getElementById("global-video").style.display = "block";
+                }
+            })
+            .catch(() => {
+            // Fallback in case of error: show global version
+            document.getElementById("global-video").style.display = "block";
+        });
+    </script>
+</body>
+</html>

@@ -184,7 +184,7 @@ I am a M.S. student at <a class='ref' href="https://gsai.kaist.ac.kr/">KAIST AI<
 
 My research centers on <b>large language models (LLMs)</b>, with a focus on enhancing their reasoning capabilities through <b>reinforcement learning</b> and other <b>post-training</b> techniques. Recently, I have also begun exploring generative modeling, particularly <b>diffusion models for video generation</b> and <b>diffusion-based LLMs</b>.
 
-Outside of research, I’m deeply passionate about cinema and photography. If you ever find yourself in Seoul, feel free to shoot me an email—we could grab a coffee and yap about research and movies, or head out for some spontaneous photo-taking!
+Outside of research, I’m deeply passionate about cinema and photography. If you ever find yourself in Seoul, feel free to shoot me an email—we could grab a coffee and yap about AI and movies, or head out for some spontaneous photo-taking!
 
 <div class="contact-clear"></div>
 </div>
