@@ -169,7 +169,7 @@ a:hover {
       {{< icon name="graduation-cap" pack="fas" >}}
     </a>
     <a href="uploads/long_cv.pdf" title="CV" target="_blank">
-      {{< icon name="file" pack="fas" >}}
+      {{< icon name="file-lines" pack="fas" >}}
     </a>
   </div>
 </div>
