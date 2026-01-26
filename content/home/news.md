@@ -41,8 +41,12 @@ td, th {
             <th></th>
          </tr>
          <tr>
+            <td><b>Jan. 2026</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
+            <td>🎉 One paper has been accepted to ICLR 2026. This is my very first first-author paper at a top-tier conference. Yayyyyy!!!!</td>
+         </tr>
+         <tr>
             <td><b>Dec. 2025</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
-            <td>🎉 I'll be joining Adobe Research as a Research Scientist Intern in Summer 2026. See you in Silicon Valley, USA!</td>
+            <td>👨‍💻 I'll be joining Adobe Research as a Research Scientist Intern in Summer 2026. See you in Silicon Valley, USA!</td>
          </tr>
          <tr>
             <td><b>Apr. 2025</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
