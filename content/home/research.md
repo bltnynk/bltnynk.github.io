@@ -18,7 +18,7 @@ columns = "1"
 <style>
   .tag {font-size: 21px;}
   .paper {font-size: 16pt; font-weight: bold}
-  .authors {font-size: 12.5pt;}
+  .authors {font-size: 13pt;}
   .venue {font-size: 14pt; font-weight: 600;}
   .note {font-size: 10pt;}
   .highlight {font-weight: 600; text-decoration: underline;}
