@@ -29,7 +29,7 @@ columns = "1"
     .authors {font-size: 10pt;}
     .venue {font-size: 11pt;}
     .note {font-size: 9pt;}
-    .highlight {font-size: 11pt; font-weight: 600; text-decoration: underline;}
+    .highlight {font-size: 10pt; font-weight: 600; text-decoration: underline;}
     .paperaward {font-size: 11pt; font-weight: 600;}
   }
 </style>
