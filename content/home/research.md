@@ -18,18 +18,18 @@ columns = "1"
 <style>
   .tag {font-size: 21px;}
   .paper {font-size: 16pt; font-weight: bold}
-  .authors {font-size: 14pt;}
-  .venue {font-size: 14pt; font-weight: 630;}
+  .authors {font-size: 12.5pt;}
+  .venue {font-size: 14pt; font-weight: 600;}
   .note {font-size: 10pt;}
-  .highlight {font-weight: 550; text-decoration: underline;}
+  .highlight {font-weight: 600; text-decoration: underline;}
   .paperaward {font-size: 14pt; font-weight: 600; color: #b1050e;}
   
   @media only screen and (max-width: 768px) {
     .paper {font-size: 13pt;}
-    .authors {font-size: 11pt;}
+    .authors {font-size: 10pt;}
     .venue {font-size: 11pt;}
     .note {font-size: 9pt;}
-    .highlight {font-size: 11pt; font-weight: 550; text-decoration: underline;}
+    .highlight {font-size: 11pt; font-weight: 600; text-decoration: underline;}
     .paperaward {font-size: 11pt; font-weight: 600;}
   }
 </style>
