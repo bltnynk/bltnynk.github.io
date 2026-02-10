@@ -66,7 +66,7 @@ td, th {
          </tr>
          <tr>
             <td><b>Jun. 2023</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
-            <td>🏫 I joined KAIST NMSL as a research intern.</td>
+            <td>🏫 I joined KAIST MIIL as a research intern.</td>
          </tr>
          <!-- <tr>
             <td><b>Aug. 2025</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
