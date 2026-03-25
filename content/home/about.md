@@ -177,10 +177,10 @@ a:hover {
   </div>
 </div>
 
-## **Thanh-Long V. Le**
+## **Thanh-Long V. Le (Lê Viết Thanh Long)**
 
 <div id='intro'>
-Hey there! Glad to have you here. Call me <b>Long</b> for short 😆. My full name in Vietnamese is Lê Viết Thanh Long.
+Hey there! Glad to have you here. Call me <b>Long</b> for short 😆.
 <div class='br'><br></div>
 
 I am a M.S. student at <a class='ref' href="https://gsai.kaist.ac.kr/">KAIST AI</a>, co-advised by <a class='ref' href="https://mli.kaist.ac.kr/people/">Eunho Yang</a> (MLILAB) and <a class='ref' href="https://laiviet.github.io/">Viet Lai</a> (Adobe Research). Previously, I received my B.S. degree in Computer Science at <a class='ref' href="https://www.kaist.ac.kr/en/">KAIST</a>, advised by <a class='ref' href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a>.
