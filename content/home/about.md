@@ -156,7 +156,7 @@ a:hover {
 </style>
 
 <div class="profile-photo">
-  <img src="uploads/long-narrow.png" alt="Thanh-Long V. Le">
+  <img src="uploads/pp.jpg" alt="Thanh-Long V. Le">
 
   <div class="profile-icons">
     <a href="mailto:thanhlongtdk2000@gmail.com" title="Email">
