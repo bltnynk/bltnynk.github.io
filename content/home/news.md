@@ -42,11 +42,11 @@ td, th {
          </tr>
          <tr>
             <td><b>May. 2026</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
-            <td>👨‍💻 Research Scientist Intern @ Adobe (San Jose, CA, USA)</td>
+            <td>👨‍💻 Research Scientist Intern @ Adobe (San Jose, CA, USA).</td>
          </tr>
          <tr>
             <td><b>Apr. 2026</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
-            <td>:airplane: Attending ICLR 2026 @ Rio de Janeiro, Brazil</td>
+            <td>:airplane: Attending ICLR 2026 @ Rio de Janeiro, Brazil.</td>
          </tr>
          <tr>
             <td><b>Jan. 2026</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
@@ -62,7 +62,7 @@ td, th {
          </tr>
          <tr>
             <td><b>Feb. 2025</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
-            <td>🏫 I started my M.S. in MLILAB at KAIST AI.</td>
+            <td>🏫 I started my M.S. at KAIST AI.</td>
          </tr>
          <tr>
             <td><b>Sep. 2024</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
@@ -74,7 +74,7 @@ td, th {
          </tr>
          <tr>
             <td><b>Jun. 2023</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
-            <td>🏫 I joined KAIST MIIL as a research intern.</td>
+            <td>🏫 Undergraduate Researcher @ <a class='ref' href="https://nmsl.kaist.ac.kr/">MIIL</a>, KAIST.</td>
          </tr>
          <!-- <tr>
             <td><b>Aug. 2025</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>

@@ -183,7 +183,7 @@ a:hover {
 Hey there! Glad to have you here. Call me <b>Long</b> for short 😆. My full name in Vietnamese is Lê Viết Thanh Long.
 <div class='br'><br></div>
 
-I am a M.S. student at <a class='ref' href="https://gsai.kaist.ac.kr/">KAIST AI</a>, advised by <a class='ref' href="https://mli.kaist.ac.kr/people/">Prof. Eunho Yang</a> and working closely with <a class='ref' href="https://laiviet.github.io/">Dr. Viet Lai</a> from Adobe Research. Previously, I received my B.S. degree in Computer Science at <a class='ref' href="https://www.kaist.ac.kr/en/">KAIST</a>, advised by <a class='ref' href="https://sites.google.com/site/wewantsj/">Prof. Sung-Ju Lee</a>.
+I am a M.S. student at <a class='ref' href="https://gsai.kaist.ac.kr/">KAIST AI</a>, co-advised by <a class='ref' href="https://mli.kaist.ac.kr/people/">Eunho Yang</a> (MLILAB) and <a class='ref' href="https://laiviet.github.io/">Viet Lai</a> (Adobe Research). Previously, I received my B.S. degree in Computer Science at <a class='ref' href="https://www.kaist.ac.kr/en/">KAIST</a>, advised by <a class='ref' href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a>.
 
 My research centers on <b>large language models (LLMs)</b>, with an emphasis on improving their reasoning abilities through <b>reinforcement learning</b> and other <b>post-training</b> techniques. Recently, I have also begun exploring generative modeling, with a current focus on <b>applying reinforcement learning to diffusion and flow models</b>.
 
