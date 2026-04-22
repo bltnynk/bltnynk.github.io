@@ -16,6 +16,9 @@ main:
   - name: Honors
     url: '#honors'
     weight: 40
+  - name: Academic Services
+    url: '#service'
+    weight: 50
   # - name: Projects
   #   url: '#projects'
   #   weight: 50
