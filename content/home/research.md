@@ -75,7 +75,7 @@ columns = "1"
 <p style="line-height:1.3">
   <span class="paper">Mixture of Sequence-Level Experts for On-Device Infilling</span><br>
   <span class="authors"><a href="https://aphoh.us/">William Arnold</a>, <span class="highlight">Thanh-Long V. Le</span>, <a href="https://scholar.google.com/citations?user=nkLNWg0AAAAJ">June Yong Yang</a>, <a href="https://scholar.google.com/citations?user=UWO1mloAAAAJ&hl=en">Eunho Yang</a></span><br>
-  <span class="venue">Preprint</span><br style="content: ' '; display: block; margin: 5px;">
+  <span class="venue"><i>Preprint</i></span><br style="content: ' '; display: block; margin: 5px;">
   <!-- <a class="badge badge-light" href="https://arxiv.org/abs/2509.21880"><i class="far fa-file-alt"></i> Paper</a>
   <a class="badge badge-light" href="https://bltnynk.github.io/publications/rl-zvp"><i class="fa fa-home"></i> Website</a> -->
 </p>
