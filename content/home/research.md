@@ -38,6 +38,14 @@ columns = "1"
 <hr class="divider"></hr>
 
 <p style="line-height:1.3">
+  <span class="paper">FlowTool: Controlling Tool Parameter In Image Editing Via Flow Matching</span><br>
+  <span class="authors"><span class="highlight">Thanh-Long V. Le</span>, <a href="https://swalton.ai/">Steven Walton</a>, <a href="https://david-yoon.github.io/">Seunghyun Yoon</a>, <a href="https://bkveton.com/">Branislav Kveton</a>,<a href="https://sites.google.com/site/trungbuistanford/">Trung Bui</a>, <a href="https://scholar.google.com/citations?user=UWO1mloAAAAJ&hl=en">Eunho Yang</a>, <a href="https://laiviet.github.io/">Viet Lai</a></span><br>
+  <span class="venue">ICLR 2026</span><br style="content: ' '; display: block; margin: 5px;">
+  <a class="badge badge-light" href="https://arxiv.org/abs/2509.21880"><i class="far fa-file-alt"></i> Paper</a>
+  <a class="badge badge-light" href="https://bltnynk.github.io/publications/rl-zvp"><i class="fa fa-home"></i> Website</a>
+</p>
+
+<p style="line-height:1.3">
   <span class="paper">No Prompt Left Behind: Exploiting Zero-Variance Prompts in LLM Reinforcement Learning via Entropy-Guided Advantage Shaping</span><br>
   <span class="authors"><span class="highlight">Thanh-Long V. Le</span>, <a href="https://myeongho.com/">Myeongho Jeon</a>, Kim Vu, <a href="https://laiviet.github.io/">Viet Lai</a>, <a href="https://scholar.google.com/citations?user=UWO1mloAAAAJ&hl=en">Eunho Yang</a></span><br>
   <span class="venue">ICLR 2026</span><br style="content: ' '; display: block; margin: 5px;">
@@ -62,6 +70,14 @@ columns = "1"
     <a class="badge badge-light" href="https://nmsl.kaist.ac.kr/projects/fl2/"><i class="fa fa-home"></i> Website</a>
     <a class="badge badge-light" href="https://github.com/seungjoo-ai/FLFL-NeurIPS24"><i class="fa fa-code"></i> Code</a>
     <!-- <a class="badge badge-light" href="https://youtu.be/FbFD3B2OCo8?si=r5UnZtwYiXiOolgK"><i class="fa fa-video-camera"></i> Video</a> -->
+</p>
+
+<p style="line-height:1.3">
+  <span class="paper">Mixture of Sequence-Level Experts for On-Device Infilling</span><br>
+  <span class="authors"><a href="https://aphoh.us/">William Arnold</a>, <span class="highlight">Thanh-Long V. Le</span>, <a href="https://scholar.google.com/citations?user=nkLNWg0AAAAJ">June Yong Yang</a>, <a href="https://scholar.google.com/citations?user=UWO1mloAAAAJ&hl=en">Eunho Yang</a></span><br>
+  <span class="venue">ICLR 2026</span><br style="content: ' '; display: block; margin: 5px;">
+  <a class="badge badge-light" href="https://arxiv.org/abs/2509.21880"><i class="far fa-file-alt"></i> Paper</a>
+  <a class="badge badge-light" href="https://bltnynk.github.io/publications/rl-zvp"><i class="fa fa-home"></i> Website</a>
 </p>
 
 <!-- <p style="line-height:1.3">

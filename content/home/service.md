@@ -30,6 +30,6 @@ subtitle = ""
 
 <p style="line-height:1.3">
   <span class="award"><b>Conference Reviewer</b></span><br>
-  <span class="award-description">NeurIPS 2026</span>
+  <span class="award-description">NeurIPS 2026, EMNLP 2026, ICLR 2027</span>
 </p>
 
