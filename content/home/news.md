@@ -41,6 +41,10 @@ td, th {
             <th></th>
          </tr>
          <tr>
+            <td><b>Oct. 2026</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
+            <td>👨‍💻 Visiting Researcher @ MLBio Lab, EPFL (Lausanne, Switzerland).</td>
+         </tr>
+         <tr>
             <td><b>May. 2026</b> &nbsp; &nbsp; &nbsp; &nbsp;</td>
             <td>👨‍💻 Research Scientist Intern @ Adobe (San Jose, CA, USA).</td>
          </tr>
