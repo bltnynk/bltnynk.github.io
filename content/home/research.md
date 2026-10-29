@@ -43,6 +43,7 @@ columns = "1"
   <span class="venue">ICLR 2026</span><br style="content: ' '; display: block; margin: 5px;">
   <a class="badge badge-light" href="https://arxiv.org/abs/2509.21880"><i class="far fa-file-alt"></i> Paper</a>
   <a class="badge badge-light" href="https://bltnynk.github.io/publications/rl-zvp"><i class="fa fa-home"></i> Website</a>
+  <span class="paperaward"><i class="fas fa-award"></i> Qualcomm Innovation Fellowship Finalist</span>
 </p>
 
 <p style="line-height:1.3">
