@@ -29,6 +29,11 @@ subtitle = ""
 <hr class="divider"></hr>
 
 <p style="line-height:1.3">
+  <span class="award"><b>Qualcomm Innovation Fellowship 2026</b></span><br>
+  <span class="award-description">Selected as one of 30 finalists in South Korea</span>
+</p>
+
+<p style="line-height:1.3">
   <span class="award"><b>Magna Cum Laude</b></span><br>
   <span class="award-description">Graduated with GPA 3.98/4.30, ranked top 10 in School of Computing, KAIST (2024).</span>
 </p>
