@@ -29,8 +29,8 @@ subtitle = ""
 <hr class="divider"></hr>
 
 <p style="line-height:1.3">
-  <span class="award"><b>Qualcomm Innovation Fellowship 2026</b></span><br>
-  <span class="award-description">Selected as one of 30 finalists in South Korea</span>
+  <span class="award"><b>Qualcomm Innovation Fellowship</b></span><br>
+  <span class="award-description">Selected as one of 30 finalists in South Korea (2026).</span>
 </p>
 
 <p style="line-height:1.3">
