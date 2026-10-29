@@ -40,7 +40,7 @@ columns = "1"
 <p style="line-height:1.3">
   <span class="paper">No Prompt Left Behind: Exploiting Zero-Variance Prompts in LLM Reinforcement Learning via Entropy-Guided Advantage Shaping</span><br>
   <span class="authors"><span class="highlight">Thanh-Long V. Le</span>, <a href="https://myeongho.com/">Myeongho Jeon</a>, Kim Vu, <a href="https://laiviet.github.io/">Viet Lai</a>, <a href="https://scholar.google.com/citations?user=UWO1mloAAAAJ&hl=en">Eunho Yang</a></span><br>
-  <span class="venue">ICLR 2026</span></br>
+  <span class="venue">ICLR 2026</span><br>
   <span class="paperaward"><i class="fas fa-award"></i> Qualcomm Innovation Fellowship Finalist</span>
   <br style="content: ' '; display: block; margin: 5px;">
   <a class="badge badge-light" href="https://arxiv.org/abs/2509.21880"><i class="far fa-file-alt"></i> Paper</a>
